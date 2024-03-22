@@ -1,4 +1,3 @@
-
 # import libraries----------------------------------------------------------------------------------------------------------------------------------
 import plotly.express as px
 from shiny.express import input, ui
@@ -31,7 +30,7 @@ penguins_df_r = penguins_df.rename(columns={"bill_depth_mm": "Bill Depth (mm)", 
 
 # Name the page ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-ui.page_opts(title="Naskar's Penguin Data", fillable=False)
+ui.page_opts(title="Priyanka's Penguin Dashboard", fillable=False)
 
 #Shiny UI sidebar for user interaction------------------------------------------------------------------------------------------------------------------------------------------------
 
